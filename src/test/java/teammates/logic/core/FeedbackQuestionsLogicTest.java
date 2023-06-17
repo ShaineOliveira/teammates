@@ -169,7 +169,6 @@ public class FeedbackQuestionsLogicTest extends BaseLogicTest {
         assertFalse(
                 fqLogic.getFeedbackQuestionsForSession(anotherFsa.getFeedbackSessionName(), anotherFsa.getCourseId())
                         .isEmpty());
-
         fqLogic.deleteFeedbackQuestions(AttributesDeletionQuery.builder()
                 .withCourseId(fsa.getCourseId())
                 .withFeedbackSessionName(fsa.getFeedbackSessionName())
