@@ -1218,6 +1218,53 @@
         "INSTRUCTORS"
       ]
     },
+
+    "qn6InSession1InCourse1": {
+      "feedbackSessionName": "Second feedback session",
+      "courseId": "idOfTypicalCourse2",
+      "questionDetails": {
+        "recommendedLength": 100,
+        "questionText": "New format Text question",
+        "questionType": "TEXT"
+      },
+      "questionNumber": 5,
+      "giverType": "SELF",
+      "recipientType": "STUDENTS_IN_SAME_SECTION",
+      "numberOfEntitiesToGiveFeedbackTo": -100,
+      "showResponsesTo": [
+        "INSTRUCTORS"
+      ],
+      "showGiverNameTo": [
+        "INSTRUCTORS"
+      ],
+      "showRecipientNameTo": [
+        "INSTRUCTORS"
+      ]
+    },
+
+    "qn7InSession1InCourse1": {
+      "feedbackSessionName": "Three feedback session",
+      "courseId": "idOfTypicalCourse2",
+      "questionDetails": {
+        "recommendedLength": 100,
+        "questionText": "New format Text question",
+        "questionType": "TEXT"
+      },
+      "questionNumber": 5,
+      "giverType": "SELF",
+      "recipientType": "TEAMS_IN_SAME_SECTION",
+      "numberOfEntitiesToGiveFeedbackTo": -100,
+      "showResponsesTo": [
+        "INSTRUCTORS"
+      ],
+      "showGiverNameTo": [
+        "INSTRUCTORS"
+      ],
+      "showRecipientNameTo": [
+        "INSTRUCTORS"
+      ]
+    },
+
     "team.feedback": {
       "feedbackSessionName": "Second feedback session",
       "courseId": "idOfTypicalCourse1",
