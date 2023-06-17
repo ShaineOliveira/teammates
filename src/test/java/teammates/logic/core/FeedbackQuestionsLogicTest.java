@@ -168,7 +168,7 @@ public class FeedbackQuestionsLogicTest extends BaseLogicTest {
         FeedbackSessionAttributes anotherFsa = dataBundle.feedbackSessions.get("session2InCourse1");
         assertFalse(
                 fqLogic.getFeedbackQuestionsForSession(anotherFsa.getFeedbackSessionName(), anotherFsa.getCourseId())
-                        .isEmpty());
+                        .isEmpty()) ;
         fqLogic.deleteFeedbackQuestions(AttributesDeletionQuery.builder()
                 .withCourseId(fsa.getCourseId())
                 .withFeedbackSessionName(fsa.getFeedbackSessionName())

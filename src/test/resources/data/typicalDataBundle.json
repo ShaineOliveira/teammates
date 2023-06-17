@@ -1256,7 +1256,7 @@
       "numberOfEntitiesToGiveFeedbackTo": -100,
       "showResponsesTo": [
         "INSTRUCTORS"
-      ],
+      ] ,
       "showGiverNameTo": [
         "INSTRUCTORS"
       ],
